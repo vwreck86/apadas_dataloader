@@ -147,16 +147,7 @@ def read_file(file_name):
 
     # map sensor names from the .dat file to MIDAS instrument name:  ("dat file_instrument_name": "Midas_name")
     translate_list = {'RESLEVELE': 'RESERVOIR POOL', 'P1E': 'P-1', 'P2E': 'P-2', 'P3E': 'P-3', 'P4E': 'P-4',
-                      'P5E': 'P-5', 'P6E': 'P-6', 'P7E': 'P-7', 'P8E': 'P-8', 'P9E': 'P-9', 'P10E': 'P-10',
-                      'P11E': 'P-11', 'P11AE': 'P-11A', 'P12E': 'P-12', 'P13E': 'P-13', 'P13AE': 'P-13A',
-                      'P14AE': 'P-14A', 'P15E': 'P-15', 'P16E': 'P-16', 'P17E': 'P-17', 'P18E': 'P-18',
-                      'P19E': 'P-19', 'P20AE': 'P-20A', 'P20E': 'P-20', 'P21E': 'P-21', 'P22E': 'P-22',
-                      'P23E': 'P-23', 'P24E': 'P-24', 'P25E': 'P-25', 'P26E': 'P-26', 'P27E': 'P-27', 'P28E': 'P-28',
-                      'P29E': 'P-29', 'P30E': 'P-30', 'P31E': 'P-31', 'P32E': 'P-32', 'P34E': 'P-34', 'P35E': 'P-35',
-                      'P36E': 'P-36', 'P37E': 'P-37', 'P39AE': 'P-39A', 'P40E': 'P-40', 'P43E': 'P-43', 'P45E': 'P-45',
-                      'P46E': 'P-46', 'P46AE': 'P-46A', 'P47E': 'P-47', 'P48E': 'P-48', 'P49E': 'P-49', 'P50E': 'P-50',
-                      'P51E': 'P-51', 'P52E': 'P-52', 'P53E': 'P-53', 'ABC1E': 'P-AB-C-1', 'ABC1AE': 'P-AB-C-1A',
-                      'ABC2AE': 'P-AB-C-2A', 'ABC2E': 'P-AB-C-2', 'ABC3E': 'P-AB-C-3', 'ABC7E': 'P-AB-C-7', 'ABC8E': 'P-AB-C-8'}
+                      'P5E': 'P-5', 'P6E': 'P-6', 'P7E': 'P-7', 'P8E': 'P-8', 'P9E': 'P-9', 'P10E': 'P-10'}
 
     try:
         open(file_name)
